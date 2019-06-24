@@ -1,0 +1,5 @@
+The previously shown change is committed to the MyDatabase 2.0 branch, and the Action center tab shows that there is no difference between the database and the MyDatabase2.0 branch.
+
+To verify that changes from the MyDatabase2.0 branch are not made to the master branch, when working with ApexSQL Source Control, we will simply pick the master branch from the Active branch drop down list. The Active branch drop-down list is an equivalent to the git checkout command, which is used to set any branch to be the current one, where changes will be committed.
+
+When switching back from the MyDatabase2.0 branch to the master branch (after the change is committed to the MyDatabase2.0 branch), the result in the Action center tab is as follows:
